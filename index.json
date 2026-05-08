@@ -78,6 +78,20 @@
               "subtitle": "Typed views of addresses. Pointers, references, smart pointers, and why every language has hidden pointers",
               "path": "part-01-what-programming-is/08-pointers-as-memory-addresses.md",
               "minutes": 25
+            },
+            {
+              "n": 9,
+              "title": "Why Abstractions Exist",
+              "subtitle": "Contracts that separate what from how. Why we cannot skip them; what they always cost",
+              "path": "part-01-what-programming-is/09-why-abstractions-exist.md",
+              "minutes": 22
+            },
+            {
+              "n": 10,
+              "title": "What Languages Actually Do",
+              "subtitle": "Languages as bundles of design decisions. The axes every language sits on",
+              "path": "part-01-what-programming-is/10-what-languages-actually-do.md",
+              "minutes": 26
             }
           ]
         }

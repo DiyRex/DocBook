@@ -34,9 +34,11 @@ After Part 1, every part that follows is a different lens on the same substrate.
 8. **[Pointers As Memory Addresses](08-pointers-as-memory-addresses.md)**
    A pointer as "typed view of an address." Pointers vs references vs iterators vs smart pointers. The four classic hazards. Why "no-pointer" languages have hidden pointers. Identity vs value.
 
-9. **Why Abstractions Exist** *(coming soon)*
+9. **[Why Abstractions Exist](09-why-abstractions-exist.md)**
+   Contracts that separate *what* from *how*. Spolsky's law of leaky abstractions, the recurring costs (indirection, information loss, performance opacity, debuggability), and how to price an abstraction before adopting it.
 
-10. **What Languages Actually Do** *(coming soon)*
+10. **[What Languages Actually Do](10-what-languages-actually-do.md)**
+    Languages as bundles of design decisions across six axes: typing, memory, concurrency, compilation, abstraction level, mutability. A transferable mental model for reading any language quickly.
 
 ---
 

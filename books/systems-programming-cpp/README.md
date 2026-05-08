@@ -30,8 +30,8 @@ The substrate: how programs become processes, what the CPU and memory really are
 6. [Function Calls Internally](part-01-what-programming-is/06-function-calls-internally.md)
 7. [Call Stack Deep Dive](part-01-what-programming-is/07-call-stack-deep-dive.md)
 8. [Pointers As Memory Addresses](part-01-what-programming-is/08-pointers-as-memory-addresses.md)
-9. *Why Abstractions Exist* — coming soon
-10. *What Languages Actually Do* — coming soon
+9. [Why Abstractions Exist](part-01-what-programming-is/09-why-abstractions-exist.md)
+10. [What Languages Actually Do](part-01-what-programming-is/10-what-languages-actually-do.md)
 
 ### Part 2 — Memory & Execution Foundations *(coming soon)*
 
@@ -91,7 +91,7 @@ You do **not** need prior C++ experience. C++ is introduced as we need it.
 
 | Part | Chapters | Status |
 |---|---|---|
-| Part 1 | 10 | 8/10 written |
+| Part 1 | 10 | 10/10 ✅ |
 | Part 2 | 12 | not started |
 | Part 3 | 10 | not started |
 | Part 4 | 13 | not started |
@@ -100,4 +100,4 @@ You do **not** need prior C++ experience. C++ is introduced as we need it.
 | Part 7 | 10 | not started |
 | Part 8 | 13 | not started |
 | Part 9 | 8 | not started |
-| **Total** | **~98** | **8 written** |
+| **Total** | **~98** | **10 written** |
