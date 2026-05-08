@@ -1,0 +1,87 @@
+{
+  "schema": 1,
+  "title": "DocBook",
+  "tagline": "A personal library of long-form technical books.",
+  "books": [
+    {
+      "slug": "systems-programming-cpp",
+      "title": "Systems Programming & Software Architecture Foundations with C++",
+      "shortTitle": "Systems Programming with C++",
+      "subtitle": "An architecture-first, runtime-first guide using C++ as the teaching language",
+      "description": "For intermediate developers who can write code but want to understand what is actually happening when their code runs — and why software is built the way it is.",
+      "tags": ["Systems", "C++", "Architecture", "Memory"],
+      "accentColor": "#1E3A5F",
+      "icon": "book",
+      "status": "in-progress",
+      "path": "books/systems-programming-cpp",
+      "frontmatter": [
+        { "title": "Preface", "path": "preface.md", "minutes": 6 }
+      ],
+      "parts": [
+        {
+          "slug": "part-01-what-programming-is",
+          "title": "Part 1 — What Programming Actually Is",
+          "summary": "The substrate. How programs become processes, what the CPU and memory really are, what the OS does on your behalf, and how source code becomes machine code. By the end you have an unbroken mental model from the program counter up to source code.",
+          "chapters": [
+            {
+              "n": 1,
+              "title": "What Happens When A Program Runs",
+              "subtitle": "The kernel, loader, dynamic linker, and C runtime — the four actors that all run before your main()",
+              "path": "part-01-what-programming-is/01-what-happens-when-a-program-runs.md",
+              "minutes": 28
+            },
+            {
+              "n": 2,
+              "title": "CPU, RAM, Stack, Heap, Registers",
+              "subtitle": "Fetch–decode–execute. Why memory is a hierarchy, not a single thing",
+              "path": "part-01-what-programming-is/02-cpu-ram-stack-heap-registers.md",
+              "minutes": 30
+            },
+            {
+              "n": 3,
+              "title": "How Operating Systems Execute Programs",
+              "subtitle": "Processes, virtual memory, syscalls, scheduling, and the four core OS abstractions",
+              "path": "part-01-what-programming-is/03-how-os-executes-programs.md",
+              "minutes": 32
+            },
+            {
+              "n": 4,
+              "title": "Machine Code, Assembly, Compilers, Interpreters",
+              "subtitle": "From source to bytes. Why every language has a runtime if you look hard enough",
+              "path": "part-01-what-programming-is/04-machine-code-assembly-compilers-interpreters.md",
+              "minutes": 26
+            },
+            {
+              "n": 5,
+              "title": "Memory Layout Of A Process",
+              "subtitle": ".text, .rodata, .data, .bss, heap, stack, libraries, TLS — where every variable lives",
+              "path": "part-01-what-programming-is/05-memory-layout-of-a-process.md",
+              "minutes": 28
+            },
+            {
+              "n": 6,
+              "title": "Function Calls Internally",
+              "subtitle": "Calling conventions, stack frames, register saving, inlining, tail calls",
+              "path": "part-01-what-programming-is/06-function-calls-internally.md",
+              "minutes": 26
+            },
+            {
+              "n": 7,
+              "title": "Call Stack Deep Dive",
+              "subtitle": "Stack traces, debugger walking, overflow, and the trick behind coroutines, fibers, and exceptions",
+              "path": "part-01-what-programming-is/07-call-stack-deep-dive.md",
+              "minutes": 24
+            },
+            {
+              "n": 8,
+              "title": "Pointers As Memory Addresses",
+              "subtitle": "Typed views of addresses. Pointers, references, smart pointers, and why every language has hidden pointers",
+              "path": "part-01-what-programming-is/08-pointers-as-memory-addresses.md",
+              "minutes": 25
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
