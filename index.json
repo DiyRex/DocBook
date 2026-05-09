@@ -185,6 +185,23 @@
               "minutes": 30
             }
           ]
+        },
+        {
+          "slug": "part-03-understanding-abstractions",
+          "title": "Part 3 — Understanding Abstractions",
+          "summary": "Abstractions, taken apart mechanically. What an abstraction is built out of, encapsulation from first principles, what classes and objects are in memory, composition vs inheritance, interfaces and contracts, polymorphism internals, virtual tables, static vs dynamic dispatch, and dependency injection from scratch.",
+          "chapters": [
+            { "n": 23, "title": "What Is An Abstraction (Mechanically)", "subtitle": "Interface, contract, implementation. Mechanism vs policy", "path": "part-03-understanding-abstractions/01-what-is-an-abstraction.md", "minutes": 24 },
+            { "n": 24, "title": "Encapsulation From First Principles", "subtitle": "Invariants, local reasoning, access specifiers, tell-don't-ask", "path": "part-03-understanding-abstractions/02-encapsulation.md", "minutes": 28 },
+            { "n": 25, "title": "Why Classes Exist", "subtitle": "Bundling data + operations that maintain invariants", "path": "part-03-understanding-abstractions/03-why-classes-exist.md", "minutes": 24 },
+            { "n": 26, "title": "What Objects Are In Memory", "subtitle": "Padding, alignment, vptr layout, multiple inheritance, identity", "path": "part-03-understanding-abstractions/04-what-objects-are-in-memory.md", "minutes": 24 },
+            { "n": 27, "title": "Composition vs Inheritance", "subtitle": "What inheritance does mechanically. Fragile base class. When each is right", "path": "part-03-understanding-abstractions/05-composition-vs-inheritance.md", "minutes": 28 },
+            { "n": 28, "title": "Interfaces and Contracts", "subtitle": "Pure-virtual interfaces, concepts, structural vs nominal typing", "path": "part-03-understanding-abstractions/06-interfaces-and-contracts.md", "minutes": 24 },
+            { "n": 29, "title": "Polymorphism Internals", "subtitle": "Ad-hoc, parametric, subtype, structural — how each is implemented", "path": "part-03-understanding-abstractions/07-polymorphism-internals.md", "minutes": 26 },
+            { "n": 30, "title": "Virtual Tables", "subtitle": "Vtable + vptr step by step. Multiple inheritance, RTTI, devirtualization", "path": "part-03-understanding-abstractions/08-virtual-tables.md", "minutes": 24 },
+            { "n": 31, "title": "Static vs Dynamic Dispatch", "subtitle": "CRTP, std::variant, type erasure, std::function — costs and choice", "path": "part-03-understanding-abstractions/09-static-vs-dynamic-dispatch.md", "minutes": 24 },
+            { "n": 32, "title": "Dependency Injection From Scratch", "subtitle": "Three forms of injection. When you want a container. Service-locator anti-pattern", "path": "part-03-understanding-abstractions/10-dependency-injection-from-scratch.md", "minutes": 24 }
+          ]
         }
       ]
     }

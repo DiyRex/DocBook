@@ -50,9 +50,20 @@ The dimension that dominates real-world performance and reliability. Stack and h
 21. [Garbage Collection Internals](part-02-memory-execution/11-garbage-collection-internals.md)
 22. [How Python, Go, and PHP Actually Manage Memory](part-02-memory-execution/12-how-languages-manage-memory.md)
 
-### Part 3 — Understanding Abstractions *(coming soon)*
+### [Part 3 — Understanding Abstractions](part-03-understanding-abstractions/)
 
-What an abstraction is, encapsulation from first principles, why classes exist, what objects are in memory, composition vs inheritance, interfaces and contracts, polymorphism internals, vtables, static vs dynamic dispatch, dependency injection from scratch.
+Abstractions taken apart mechanically. What an abstraction is built out of, encapsulation from first principles, why classes exist, what objects are in memory, composition vs inheritance, interfaces and contracts, polymorphism internals, vtables, static vs dynamic dispatch, dependency injection from scratch.
+
+23. [What Is An Abstraction (Mechanically)](part-03-understanding-abstractions/01-what-is-an-abstraction.md)
+24. [Encapsulation From First Principles](part-03-understanding-abstractions/02-encapsulation.md)
+25. [Why Classes Exist](part-03-understanding-abstractions/03-why-classes-exist.md)
+26. [What Objects Are In Memory](part-03-understanding-abstractions/04-what-objects-are-in-memory.md)
+27. [Composition vs Inheritance](part-03-understanding-abstractions/05-composition-vs-inheritance.md)
+28. [Interfaces and Contracts](part-03-understanding-abstractions/06-interfaces-and-contracts.md)
+29. [Polymorphism Internals](part-03-understanding-abstractions/07-polymorphism-internals.md)
+30. [Virtual Tables](part-03-understanding-abstractions/08-virtual-tables.md)
+31. [Static vs Dynamic Dispatch](part-03-understanding-abstractions/09-static-vs-dynamic-dispatch.md)
+32. [Dependency Injection From Scratch](part-03-understanding-abstractions/10-dependency-injection-from-scratch.md)
 
 ### Part 4 — Architecture Thinking *(coming soon)*
 
@@ -106,7 +117,7 @@ You do **not** need prior C++ experience. C++ is introduced as we need it.
 |---|---|---|
 | Part 1 | 10 | 10/10 ✅ |
 | Part 2 | 12 | 12/12 ✅ |
-| Part 3 | 10 | not started |
+| Part 3 | 10 | 10/10 ✅ |
 | Part 4 | 13 | not started |
 | Part 5 | 12 | not started |
 | Part 6 | 10 | not started |
