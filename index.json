@@ -241,6 +241,23 @@
             { "n": 56, "title": "Locks and Atomics", "subtitle": "Futex internals; lock_guard; CAS loops; lock-free briefly", "path": "part-05-runtime-concurrency/11-locks-and-atomics.md", "minutes": 28 },
             { "n": 57, "title": "Memory Ordering", "subtitle": "Relaxed, acquire/release, seq_cst; x86 vs ARM", "path": "part-05-runtime-concurrency/12-memory-ordering.md", "minutes": 24 }
           ]
+        },
+        {
+          "slug": "part-06-languages-runtime-design",
+          "title": "Part 6 — Languages & Runtime Design",
+          "summary": "How source becomes execution, how major runtimes actually run code, the GC tradeoffs each picked, why Rust ownership exists, why C++ stays difficult, and a transferable framework for evaluating any language.",
+          "chapters": [
+            { "n": 58, "title": "Compiled vs Interpreted", "subtitle": "The spectrum, not a dichotomy", "path": "part-06-languages-runtime-design/01-compiled-vs-interpreted.md", "minutes": 24 },
+            { "n": 59, "title": "JIT Compilation", "subtitle": "Tiered compilation, profile-guided optimization, deoptimization", "path": "part-06-languages-runtime-design/02-jit-compilation.md", "minutes": 22 },
+            { "n": 60, "title": "How Python Executes Code", "subtitle": "Bytecode, ceval, GIL, where slowness comes from", "path": "part-06-languages-runtime-design/03-how-python-executes-code.md", "minutes": 22 },
+            { "n": 61, "title": "Why Python Uses __name__ == \"__main__\"", "subtitle": "The import-side-effect problem and cross-language equivalents", "path": "part-06-languages-runtime-design/04-why-python-uses-name-main.md", "minutes": 20 },
+            { "n": 62, "title": "How Go Builds Binaries", "subtitle": "Static linking, cross-compilation, cgo's costs", "path": "part-06-languages-runtime-design/05-how-go-builds-binaries.md", "minutes": 24 },
+            { "n": 63, "title": "How the JVM Works", "subtitle": "Class loading, tiered JIT, escape analysis, startup cost", "path": "part-06-languages-runtime-design/06-how-the-jvm-works.md", "minutes": 28 },
+            { "n": 64, "title": "Runtime GC Tradeoffs Across Languages", "subtitle": "The choices JVM, Go, V8, .NET, CPython, BEAM made", "path": "part-06-languages-runtime-design/07-runtime-gc-tradeoffs.md", "minutes": 24 },
+            { "n": 65, "title": "Why Rust Ownership Exists", "subtitle": "Memory safety + no GC + concurrency at compile time", "path": "part-06-languages-runtime-design/08-why-rust-ownership-exists.md", "minutes": 24 },
+            { "n": 66, "title": "Why C++ Is Difficult", "subtitle": "Backwards compat, paradigms, UB, the build system tax", "path": "part-06-languages-runtime-design/09-why-cpp-is-difficult.md", "minutes": 26 },
+            { "n": 67, "title": "Language Design Tradeoffs (Part 6 Synthesis)", "subtitle": "The framework for reading any language", "path": "part-06-languages-runtime-design/10-language-design-tradeoffs.md", "minutes": 30 }
+          ]
         }
       ]
     }

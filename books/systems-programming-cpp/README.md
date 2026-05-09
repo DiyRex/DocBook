@@ -100,9 +100,20 @@ What your code looks like while it's running. Processes vs threads, concurrency 
 56. [Locks and Atomics](part-05-runtime-concurrency/11-locks-and-atomics.md)
 57. [Memory Ordering](part-05-runtime-concurrency/12-memory-ordering.md)
 
-### Part 6 — Languages & Runtime Design *(coming soon)*
+### [Part 6 — Languages & Runtime Design](part-06-languages-runtime-design/)
 
-Compiled vs interpreted, JIT, how Python executes code, why Python uses `__name__ == "__main__"`, how Go builds binaries, how the JVM works, how garbage collectors work, why Rust ownership exists, why C++ is difficult, language design tradeoffs.
+How source becomes execution, how major runtimes actually run code, the GC tradeoffs each picked, why Rust ownership exists, why C++ stays difficult, and a transferable framework for evaluating any language.
+
+58. [Compiled vs Interpreted](part-06-languages-runtime-design/01-compiled-vs-interpreted.md)
+59. [JIT Compilation](part-06-languages-runtime-design/02-jit-compilation.md)
+60. [How Python Executes Code](part-06-languages-runtime-design/03-how-python-executes-code.md)
+61. [Why Python Uses `__name__ == "__main__"`](part-06-languages-runtime-design/04-why-python-uses-name-main.md)
+62. [How Go Builds Binaries](part-06-languages-runtime-design/05-how-go-builds-binaries.md)
+63. [How the JVM Works](part-06-languages-runtime-design/06-how-the-jvm-works.md)
+64. [Runtime GC Tradeoffs Across Languages](part-06-languages-runtime-design/07-runtime-gc-tradeoffs.md)
+65. [Why Rust Ownership Exists](part-06-languages-runtime-design/08-why-rust-ownership-exists.md)
+66. [Why C++ Is Difficult](part-06-languages-runtime-design/09-why-cpp-is-difficult.md)
+67. [Language Design Tradeoffs (Part 6 Synthesis)](part-06-languages-runtime-design/10-language-design-tradeoffs.md)
 
 ### Part 7 — Building Real Systems *(coming soon)*
 
@@ -147,7 +158,7 @@ You do **not** need prior C++ experience. C++ is introduced as we need it.
 | Part 3 | 10 | 10/10 ✅ |
 | Part 4 | 13 | 13/13 ✅ |
 | Part 5 | 12 | 12/12 ✅ |
-| Part 6 | 10 | not started |
+| Part 6 | 10 | 10/10 ✅ |
 | Part 7 | 10 | not started |
 | Part 8 | 13 | not started |
 | Part 9 | 8 | not started |
