@@ -275,6 +275,26 @@
             { "n": 76, "title": "Configuration Systems", "subtitle": "Layering, typed config, secrets, feature flags", "path": "part-07-building-real-systems/09-configuration-systems.md", "minutes": 24 },
             { "n": 77, "title": "Observability and Logging", "subtitle": "Structured logs, metrics, traces, SLI/SLO", "path": "part-07-building-real-systems/10-observability-and-logging.md", "minutes": 24 }
           ]
+        },
+        {
+          "slug": "part-08-advanced-systems-thinking",
+          "title": "Part 8 — Advanced Systems Thinking",
+          "summary": "Memory-mapped files, networking internals, syscalls, kernel vs user space, serialization, protocol design, performance engineering, profiling, CPU pipelines, branch prediction, SIMD, cache misses, false sharing.",
+          "chapters": [
+            { "n": 78, "title": "Memory Mapped Files", "subtitle": "mmap mechanics; when it beats read/write; databases and IPC", "path": "part-08-advanced-systems-thinking/01-memory-mapped-files.md", "minutes": 24 },
+            { "n": 79, "title": "Networking Internals", "subtitle": "Sockets, TCP buffers, backlog, Nagle, zero-copy, QUIC", "path": "part-08-advanced-systems-thinking/02-networking-internals.md", "minutes": 24 },
+            { "n": 80, "title": "Syscalls", "subtitle": "What a syscall costs; vDSO, io_uring; tracing with strace", "path": "part-08-advanced-systems-thinking/03-syscalls.md", "minutes": 22 },
+            { "n": 81, "title": "Kernel vs User Space", "subtitle": "The privilege boundary, eBPF, microkernel vs monolithic", "path": "part-08-advanced-systems-thinking/04-kernel-vs-user-space.md", "minutes": 22 },
+            { "n": 82, "title": "Serialization Internals", "subtitle": "Text vs binary, schema'd, zero-copy, evolution", "path": "part-08-advanced-systems-thinking/05-serialization-internals.md", "minutes": 24 },
+            { "n": 83, "title": "Protocol Design", "subtitle": "Framing, versioning, idempotency, security from day one", "path": "part-08-advanced-systems-thinking/06-protocol-design.md", "minutes": 24 },
+            { "n": 84, "title": "Performance Engineering", "subtitle": "Measure first; the bottleneck hierarchy; tools", "path": "part-08-advanced-systems-thinking/07-performance-engineering.md", "minutes": 26 },
+            { "n": 85, "title": "Profiling", "subtitle": "Sampling vs instrumentation; flame graphs; off-CPU", "path": "part-08-advanced-systems-thinking/08-profiling.md", "minutes": 24 },
+            { "n": 86, "title": "CPU Pipelines", "subtitle": "Pipelining, ILP, hazards, speculation, what compilers do", "path": "part-08-advanced-systems-thinking/09-cpu-pipelines.md", "minutes": 24 },
+            { "n": 87, "title": "Branch Prediction", "subtitle": "Predictors; branch-free code; sorted-array example", "path": "part-08-advanced-systems-thinking/10-branch-prediction.md", "minutes": 22 },
+            { "n": 88, "title": "SIMD", "subtitle": "Auto-vectorization, intrinsics, std::simd, data layout", "path": "part-08-advanced-systems-thinking/11-simd.md", "minutes": 24 },
+            { "n": 89, "title": "Cache Misses (Deeper)", "subtitle": "Three C's; tiling; software prefetching; TLB", "path": "part-08-advanced-systems-thinking/12-cache-misses.md", "minutes": 24 },
+            { "n": 90, "title": "False Sharing", "subtitle": "Adjacent variables; padding; hardware_destructive_interference_size", "path": "part-08-advanced-systems-thinking/13-false-sharing.md", "minutes": 24 }
+          ]
         }
       ]
     }

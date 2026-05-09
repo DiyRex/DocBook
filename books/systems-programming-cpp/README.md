@@ -130,9 +130,23 @@ Putting the substrate to work. Each chapter walks through a real subsystem you'l
 76. [Configuration Systems](part-07-building-real-systems/09-configuration-systems.md)
 77. [Observability and Logging](part-07-building-real-systems/10-observability-and-logging.md)
 
-### Part 8 — Advanced Systems Thinking *(coming soon)*
+### [Part 8 — Advanced Systems Thinking](part-08-advanced-systems-thinking/)
 
-Memory mapped files, networking internals, syscalls, kernel vs user space, serialization internals, protocol design, performance engineering, profiling, CPU pipelines, branch prediction, SIMD, cache misses, false sharing.
+OS-adjacent (memory-mapped files, networking, syscalls, kernel/userspace, serialization, protocol design) and CPU-adjacent (performance engineering, profiling, pipelines, branch prediction, SIMD, cache misses, false sharing).
+
+78. [Memory Mapped Files](part-08-advanced-systems-thinking/01-memory-mapped-files.md)
+79. [Networking Internals](part-08-advanced-systems-thinking/02-networking-internals.md)
+80. [Syscalls](part-08-advanced-systems-thinking/03-syscalls.md)
+81. [Kernel vs User Space](part-08-advanced-systems-thinking/04-kernel-vs-user-space.md)
+82. [Serialization Internals](part-08-advanced-systems-thinking/05-serialization-internals.md)
+83. [Protocol Design](part-08-advanced-systems-thinking/06-protocol-design.md)
+84. [Performance Engineering](part-08-advanced-systems-thinking/07-performance-engineering.md)
+85. [Profiling](part-08-advanced-systems-thinking/08-profiling.md)
+86. [CPU Pipelines](part-08-advanced-systems-thinking/09-cpu-pipelines.md)
+87. [Branch Prediction](part-08-advanced-systems-thinking/10-branch-prediction.md)
+88. [SIMD](part-08-advanced-systems-thinking/11-simd.md)
+89. [Cache Misses (Deeper)](part-08-advanced-systems-thinking/12-cache-misses.md)
+90. [False Sharing](part-08-advanced-systems-thinking/13-false-sharing.md)
 
 ### Part 9 — Building A Mental Model For Any Language *(coming soon)*
 
@@ -171,6 +185,6 @@ You do **not** need prior C++ experience. C++ is introduced as we need it.
 | Part 5 | 12 | 12/12 ✅ |
 | Part 6 | 10 | 10/10 ✅ |
 | Part 7 | 10 | 10/10 ✅ |
-| Part 8 | 13 | not started |
+| Part 8 | 13 | 13/13 ✅ |
 | Part 9 | 8 | not started |
 | **Total** | **~98** | **10 written** |
