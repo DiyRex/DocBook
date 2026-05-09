@@ -202,6 +202,26 @@
             { "n": 31, "title": "Static vs Dynamic Dispatch", "subtitle": "CRTP, std::variant, type erasure, std::function — costs and choice", "path": "part-03-understanding-abstractions/09-static-vs-dynamic-dispatch.md", "minutes": 24 },
             { "n": 32, "title": "Dependency Injection From Scratch", "subtitle": "Three forms of injection. When you want a container. Service-locator anti-pattern", "path": "part-03-understanding-abstractions/10-dependency-injection-from-scratch.md", "minutes": 24 }
           ]
+        },
+        {
+          "slug": "part-04-architecture-thinking",
+          "title": "Part 4 — Architecture Thinking",
+          "summary": "Organizing 50,000 lines of code so it stays understandable. What architecture is, why programs become complex, coupling and cohesion, separation of concerns, layered architecture, controllers/services/repositories, MVC, DDD, DI, boundaries, organizing large codebases, ADRs.",
+          "chapters": [
+            { "n": 33, "title": "What Is Software Architecture", "subtitle": "Decisions expensive to change. Quality attributes. ADRs", "path": "part-04-architecture-thinking/01-what-is-software-architecture.md", "minutes": 26 },
+            { "n": 34, "title": "Why Large Programs Become Complex", "subtitle": "Essential vs accidental. Conway's law. Big Ball of Mud", "path": "part-04-architecture-thinking/02-why-large-programs-become-complex.md", "minutes": 32 },
+            { "n": 35, "title": "Coupling vs Cohesion", "subtitle": "Constantine's six and seven. Diagnosing in C++ specifically", "path": "part-04-architecture-thinking/03-coupling-vs-cohesion.md", "minutes": 30 },
+            { "n": 36, "title": "Separation of Concerns", "subtitle": "One reason to change. SRP reconsidered. Cross-cutting concerns", "path": "part-04-architecture-thinking/04-separation-of-concerns.md", "minutes": 22 },
+            { "n": 37, "title": "Layered Architecture", "subtitle": "Three layers, hexagonal, clean. Anti-patterns", "path": "part-04-architecture-thinking/05-layered-architecture.md", "minutes": 28 },
+            { "n": 38, "title": "Controllers, Services, Repositories", "subtitle": "What each is for and what each must NOT do", "path": "part-04-architecture-thinking/06-controllers-services-repositories.md", "minutes": 26 },
+            { "n": 39, "title": "Why Models Exist", "subtitle": "Domain vs data model. Anemic vs rich. The ORM trap", "path": "part-04-architecture-thinking/07-why-models-exist.md", "minutes": 24 },
+            { "n": 40, "title": "MVC Internals", "subtitle": "Smalltalk MVC vs Web MVC. MVVM, MVP. Why MVC without DI is untestable", "path": "part-04-architecture-thinking/08-mvc-internals.md", "minutes": 26 },
+            { "n": 41, "title": "Domain-Driven Thinking", "subtitle": "Ubiquitous language, bounded contexts, aggregates", "path": "part-04-architecture-thinking/09-domain-driven-thinking.md", "minutes": 24 },
+            { "n": 42, "title": "Why Frameworks Use DI", "subtitle": "The wiring problem. Auto-wiring. Lifetimes/scopes", "path": "part-04-architecture-thinking/10-why-frameworks-use-di.md", "minutes": 24 },
+            { "n": 43, "title": "Boundaries — When To Split Logic", "subtitle": "Seven boundary types. Signals to split. The microservice trap", "path": "part-04-architecture-thinking/11-boundaries-when-to-split.md", "minutes": 28 },
+            { "n": 44, "title": "Organizing Large Codebases", "subtitle": "Layer-first vs feature-first. Monorepo vs polyrepo. Build times as a signal", "path": "part-04-architecture-thinking/12-organizing-large-codebases.md", "minutes": 26 },
+            { "n": 45, "title": "Architectural Decision Records (and Part 4 Synthesis)", "subtitle": "The ADR habit. A worked walk-through tying every chapter together", "path": "part-04-architecture-thinking/13-architectural-decision-records.md", "minutes": 24 }
+          ]
         }
       ]
     }

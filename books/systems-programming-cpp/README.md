@@ -65,9 +65,23 @@ Abstractions taken apart mechanically. What an abstraction is built out of, enca
 31. [Static vs Dynamic Dispatch](part-03-understanding-abstractions/09-static-vs-dynamic-dispatch.md)
 32. [Dependency Injection From Scratch](part-03-understanding-abstractions/10-dependency-injection-from-scratch.md)
 
-### Part 4 — Architecture Thinking *(coming soon)*
+### [Part 4 — Architecture Thinking](part-04-architecture-thinking/)
 
-What software architecture is, why large programs become complex, coupling vs cohesion, separation of concerns, layered architecture, controllers/services/repositories explained properly, why models exist, MVC internals, domain-driven thinking, why frameworks use DI, boundaries, when to split logic, organizing large codebases.
+Organizing 50,000 lines of code so it stays understandable. What architecture is, why large programs become complex, coupling vs cohesion, separation of concerns, layered architecture, controllers/services/repositories, MVC, DDD, DI, boundaries, organizing large codebases, and ADRs.
+
+33. [What Is Software Architecture](part-04-architecture-thinking/01-what-is-software-architecture.md)
+34. [Why Large Programs Become Complex](part-04-architecture-thinking/02-why-large-programs-become-complex.md)
+35. [Coupling vs Cohesion](part-04-architecture-thinking/03-coupling-vs-cohesion.md)
+36. [Separation of Concerns](part-04-architecture-thinking/04-separation-of-concerns.md)
+37. [Layered Architecture](part-04-architecture-thinking/05-layered-architecture.md)
+38. [Controllers, Services, Repositories](part-04-architecture-thinking/06-controllers-services-repositories.md)
+39. [Why Models Exist](part-04-architecture-thinking/07-why-models-exist.md)
+40. [MVC Internals](part-04-architecture-thinking/08-mvc-internals.md)
+41. [Domain-Driven Thinking](part-04-architecture-thinking/09-domain-driven-thinking.md)
+42. [Why Frameworks Use DI](part-04-architecture-thinking/10-why-frameworks-use-di.md)
+43. [Boundaries — When To Split Logic](part-04-architecture-thinking/11-boundaries-when-to-split.md)
+44. [Organizing Large Codebases](part-04-architecture-thinking/12-organizing-large-codebases.md)
+45. [Architectural Decision Records (and Part 4 Synthesis)](part-04-architecture-thinking/13-architectural-decision-records.md)
 
 ### Part 5 — Runtime & Concurrency *(coming soon)*
 
@@ -118,7 +132,7 @@ You do **not** need prior C++ experience. C++ is introduced as we need it.
 | Part 1 | 10 | 10/10 ✅ |
 | Part 2 | 12 | 12/12 ✅ |
 | Part 3 | 10 | 10/10 ✅ |
-| Part 4 | 13 | not started |
+| Part 4 | 13 | 13/13 ✅ |
 | Part 5 | 12 | not started |
 | Part 6 | 10 | not started |
 | Part 7 | 10 | not started |
