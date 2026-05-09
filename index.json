@@ -222,6 +222,25 @@
             { "n": 44, "title": "Organizing Large Codebases", "subtitle": "Layer-first vs feature-first. Monorepo vs polyrepo. Build times as a signal", "path": "part-04-architecture-thinking/12-organizing-large-codebases.md", "minutes": 26 },
             { "n": 45, "title": "Architectural Decision Records (and Part 4 Synthesis)", "subtitle": "The ADR habit. A worked walk-through tying every chapter together", "path": "part-04-architecture-thinking/13-architectural-decision-records.md", "minutes": 24 }
           ]
+        },
+        {
+          "slug": "part-05-runtime-concurrency",
+          "title": "Part 5 — Runtime & Concurrency",
+          "summary": "What your code looks like while it's running. Processes, threads, schedulers, async runtimes, cancellation, event loops, coroutines, Python asyncio, thread safety, locks, atomics, memory ordering.",
+          "chapters": [
+            { "n": 46, "title": "Processes vs Threads", "subtitle": "Anatomy, cost, communication, isolation", "path": "part-05-runtime-concurrency/01-processes-vs-threads.md", "minutes": 26 },
+            { "n": 47, "title": "Concurrency vs Parallelism", "subtitle": "Pike's distinction; Amdahl's law; patterns", "path": "part-05-runtime-concurrency/02-concurrency-vs-parallelism.md", "minutes": 24 },
+            { "n": 48, "title": "Schedulers", "subtitle": "OS preemptive, cooperative, M:N, work-stealing", "path": "part-05-runtime-concurrency/03-schedulers.md", "minutes": 24 },
+            { "n": 49, "title": "Async Runtime Internals", "subtitle": "State machines, event loops, wakers", "path": "part-05-runtime-concurrency/04-async-runtime-internals.md", "minutes": 24 },
+            { "n": 50, "title": "Why Go Uses Context", "subtitle": "Cancellation propagation; deadlines; cross-language equivalents", "path": "part-05-runtime-concurrency/05-why-go-uses-context.md", "minutes": 22 },
+            { "n": 51, "title": "Cancellation Propagation", "subtitle": "Four models; structured concurrency; HTTP cancellation", "path": "part-05-runtime-concurrency/06-cancellation-propagation.md", "minutes": 22 },
+            { "n": 52, "title": "Event Loops", "subtitle": "The loop stripped down; phases; microtasks; epoll/kqueue", "path": "part-05-runtime-concurrency/07-event-loops.md", "minutes": 22 },
+            { "n": 53, "title": "Coroutines", "subtitle": "Stackful vs stackless; C++20, JS, Python, Rust", "path": "part-05-runtime-concurrency/08-coroutines.md", "minutes": 26 },
+            { "n": 54, "title": "How Python AsyncIO Works", "subtitle": "Tasks, futures, the GIL, common footguns", "path": "part-05-runtime-concurrency/09-how-python-asyncio-works.md", "minutes": 24 },
+            { "n": 55, "title": "Thread Safety", "subtitle": "Data race vs race condition vs deadlock; what atomic and volatile do", "path": "part-05-runtime-concurrency/10-thread-safety.md", "minutes": 24 },
+            { "n": 56, "title": "Locks and Atomics", "subtitle": "Futex internals; lock_guard; CAS loops; lock-free briefly", "path": "part-05-runtime-concurrency/11-locks-and-atomics.md", "minutes": 28 },
+            { "n": 57, "title": "Memory Ordering", "subtitle": "Relaxed, acquire/release, seq_cst; x86 vs ARM", "path": "part-05-runtime-concurrency/12-memory-ordering.md", "minutes": 24 }
+          ]
         }
       ]
     }

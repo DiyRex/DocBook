@@ -83,9 +83,22 @@ Organizing 50,000 lines of code so it stays understandable. What architecture is
 44. [Organizing Large Codebases](part-04-architecture-thinking/12-organizing-large-codebases.md)
 45. [Architectural Decision Records (and Part 4 Synthesis)](part-04-architecture-thinking/13-architectural-decision-records.md)
 
-### Part 5 — Runtime & Concurrency *(coming soon)*
+### [Part 5 — Runtime & Concurrency](part-05-runtime-concurrency/)
 
-Processes vs threads, concurrency vs parallelism, schedulers, async runtime internals, why Go uses Context, cancellation propagation, event loops, coroutines, how Python AsyncIO works, thread safety, locks and atomics, memory ordering.
+What your code looks like while it's running. Processes vs threads, concurrency vs parallelism, schedulers, async runtime internals, why Go uses Context, cancellation propagation, event loops, coroutines, how Python AsyncIO works, thread safety, locks and atomics, memory ordering.
+
+46. [Processes vs Threads](part-05-runtime-concurrency/01-processes-vs-threads.md)
+47. [Concurrency vs Parallelism](part-05-runtime-concurrency/02-concurrency-vs-parallelism.md)
+48. [Schedulers](part-05-runtime-concurrency/03-schedulers.md)
+49. [Async Runtime Internals](part-05-runtime-concurrency/04-async-runtime-internals.md)
+50. [Why Go Uses Context](part-05-runtime-concurrency/05-why-go-uses-context.md)
+51. [Cancellation Propagation](part-05-runtime-concurrency/06-cancellation-propagation.md)
+52. [Event Loops](part-05-runtime-concurrency/07-event-loops.md)
+53. [Coroutines](part-05-runtime-concurrency/08-coroutines.md)
+54. [How Python AsyncIO Works](part-05-runtime-concurrency/09-how-python-asyncio-works.md)
+55. [Thread Safety](part-05-runtime-concurrency/10-thread-safety.md)
+56. [Locks and Atomics](part-05-runtime-concurrency/11-locks-and-atomics.md)
+57. [Memory Ordering](part-05-runtime-concurrency/12-memory-ordering.md)
 
 ### Part 6 — Languages & Runtime Design *(coming soon)*
 
@@ -133,7 +146,7 @@ You do **not** need prior C++ experience. C++ is introduced as we need it.
 | Part 2 | 12 | 12/12 ✅ |
 | Part 3 | 10 | 10/10 ✅ |
 | Part 4 | 13 | 13/13 ✅ |
-| Part 5 | 12 | not started |
+| Part 5 | 12 | 12/12 ✅ |
 | Part 6 | 10 | not started |
 | Part 7 | 10 | not started |
 | Part 8 | 13 | not started |
