@@ -258,6 +258,23 @@
             { "n": 66, "title": "Why C++ Is Difficult", "subtitle": "Backwards compat, paradigms, UB, the build system tax", "path": "part-06-languages-runtime-design/09-why-cpp-is-difficult.md", "minutes": 26 },
             { "n": 67, "title": "Language Design Tradeoffs (Part 6 Synthesis)", "subtitle": "The framework for reading any language", "path": "part-06-languages-runtime-design/10-language-design-tradeoffs.md", "minutes": 30 }
           ]
+        },
+        {
+          "slug": "part-07-building-real-systems",
+          "title": "Part 7 — Building Real Systems",
+          "summary": "Putting the substrate to work. CLI tools, web servers, database layers, frameworks, DI containers, event buses, plugins, hot reloading, configuration, observability.",
+          "chapters": [
+            { "n": 68, "title": "Designing a CLI Tool", "subtitle": "Argument parsing, exit codes, signals, stdin/stdout, testability", "path": "part-07-building-real-systems/01-designing-a-cli-tool.md", "minutes": 24 },
+            { "n": 69, "title": "Designing a Web Server", "subtitle": "Connection lifecycle, concurrency model, routing, middleware", "path": "part-07-building-real-systems/02-designing-a-web-server.md", "minutes": 26 },
+            { "n": 70, "title": "A Database Layer", "subtitle": "Pools, repositories, transactions, migrations, ORMs vs hand-rolled", "path": "part-07-building-real-systems/03-a-database-layer.md", "minutes": 24 },
+            { "n": 71, "title": "A Mini Framework", "subtitle": "Library vs framework; router + middleware + DI in 150 lines", "path": "part-07-building-real-systems/04-a-mini-framework.md", "minutes": 22 },
+            { "n": 72, "title": "A DI Container", "subtitle": "Registrations, lifetimes, type erasure in C++, captive dependencies", "path": "part-07-building-real-systems/05-a-di-container.md", "minutes": 24 },
+            { "n": 73, "title": "An Event Bus", "subtitle": "In-process vs cross-process; delivery semantics; ordering", "path": "part-07-building-real-systems/06-an-event-bus.md", "minutes": 26 },
+            { "n": 74, "title": "Plugin Architecture", "subtitle": "Dynamic libraries, embedded interpreters, subprocesses, WebAssembly", "path": "part-07-building-real-systems/07-plugin-architecture.md", "minutes": 24 },
+            { "n": 75, "title": "Hot Reloading", "subtitle": "Module swap, file watching, state preservation, what breaks", "path": "part-07-building-real-systems/08-hot-reloading.md", "minutes": 24 },
+            { "n": 76, "title": "Configuration Systems", "subtitle": "Layering, typed config, secrets, feature flags", "path": "part-07-building-real-systems/09-configuration-systems.md", "minutes": 24 },
+            { "n": 77, "title": "Observability and Logging", "subtitle": "Structured logs, metrics, traces, SLI/SLO", "path": "part-07-building-real-systems/10-observability-and-logging.md", "minutes": 24 }
+          ]
         }
       ]
     }

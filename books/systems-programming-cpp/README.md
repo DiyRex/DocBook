@@ -115,9 +115,20 @@ How source becomes execution, how major runtimes actually run code, the GC trade
 66. [Why C++ Is Difficult](part-06-languages-runtime-design/09-why-cpp-is-difficult.md)
 67. [Language Design Tradeoffs (Part 6 Synthesis)](part-06-languages-runtime-design/10-language-design-tradeoffs.md)
 
-### Part 7 — Building Real Systems *(coming soon)*
+### [Part 7 — Building Real Systems](part-07-building-real-systems/)
 
-Designing a CLI tool, a web server, a database layer, a mini framework, a DI container, an event bus, plugin architecture, hot reloading concepts, configuration systems, observability and logging.
+Putting the substrate to work. Each chapter walks through a real subsystem you'll build (or replace) at some point.
+
+68. [Designing a CLI Tool](part-07-building-real-systems/01-designing-a-cli-tool.md)
+69. [Designing a Web Server](part-07-building-real-systems/02-designing-a-web-server.md)
+70. [A Database Layer](part-07-building-real-systems/03-a-database-layer.md)
+71. [A Mini Framework](part-07-building-real-systems/04-a-mini-framework.md)
+72. [A DI Container](part-07-building-real-systems/05-a-di-container.md)
+73. [An Event Bus](part-07-building-real-systems/06-an-event-bus.md)
+74. [Plugin Architecture](part-07-building-real-systems/07-plugin-architecture.md)
+75. [Hot Reloading](part-07-building-real-systems/08-hot-reloading.md)
+76. [Configuration Systems](part-07-building-real-systems/09-configuration-systems.md)
+77. [Observability and Logging](part-07-building-real-systems/10-observability-and-logging.md)
 
 ### Part 8 — Advanced Systems Thinking *(coming soon)*
 
@@ -159,7 +170,7 @@ You do **not** need prior C++ experience. C++ is introduced as we need it.
 | Part 4 | 13 | 13/13 ✅ |
 | Part 5 | 12 | 12/12 ✅ |
 | Part 6 | 10 | 10/10 ✅ |
-| Part 7 | 10 | not started |
+| Part 7 | 10 | 10/10 ✅ |
 | Part 8 | 13 | not started |
 | Part 9 | 8 | not started |
 | **Total** | **~98** | **10 written** |
