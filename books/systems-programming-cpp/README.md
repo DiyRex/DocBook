@@ -148,9 +148,18 @@ OS-adjacent (memory-mapped files, networking, syscalls, kernel/userspace, serial
 89. [Cache Misses (Deeper)](part-08-advanced-systems-thinking/12-cache-misses.md)
 90. [False Sharing](part-08-advanced-systems-thinking/13-false-sharing.md)
 
-### Part 9 — Building A Mental Model For Any Language *(coming soon)*
+### [Part 9 — Building A Mental Model For Any Language](part-09-mental-model-for-any-language/)
 
-How to learn any programming language, recognizing common runtime patterns, mapping framework concepts across languages, recognizing architectural patterns, understanding any codebase quickly, reasoning about complexity, how senior engineers think, from developer to software architect.
+The closing part. How to walk into any new codebase, language, or framework and orient yourself in hours instead of weeks.
+
+91. [How To Learn Any Programming Language](part-09-mental-model-for-any-language/01-how-to-learn-any-language.md)
+92. [Recognizing Common Runtime Patterns](part-09-mental-model-for-any-language/02-recognizing-runtime-patterns.md)
+93. [Mapping Framework Concepts Across Languages](part-09-mental-model-for-any-language/03-mapping-framework-concepts.md)
+94. [Recognizing Architectural Patterns](part-09-mental-model-for-any-language/04-recognizing-architectural-patterns.md)
+95. [Understanding Any Codebase Quickly](part-09-mental-model-for-any-language/05-understanding-any-codebase.md)
+96. [Reasoning About Complexity](part-09-mental-model-for-any-language/06-reasoning-about-complexity.md)
+97. [How Senior Engineers Think](part-09-mental-model-for-any-language/07-how-senior-engineers-think.md)
+98. [From Developer to Software Architect](part-09-mental-model-for-any-language/08-from-developer-to-architect.md)
 
 ---
 
@@ -186,5 +195,5 @@ You do **not** need prior C++ experience. C++ is introduced as we need it.
 | Part 6 | 10 | 10/10 ✅ |
 | Part 7 | 10 | 10/10 ✅ |
 | Part 8 | 13 | 13/13 ✅ |
-| Part 9 | 8 | not started |
-| **Total** | **~98** | **10 written** |
+| Part 9 | 8 | 8/8 ✅ |
+| **Total** | **98** | **98/98 ✅** |

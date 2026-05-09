@@ -295,6 +295,21 @@
             { "n": 89, "title": "Cache Misses (Deeper)", "subtitle": "Three C's; tiling; software prefetching; TLB", "path": "part-08-advanced-systems-thinking/12-cache-misses.md", "minutes": 24 },
             { "n": 90, "title": "False Sharing", "subtitle": "Adjacent variables; padding; hardware_destructive_interference_size", "path": "part-08-advanced-systems-thinking/13-false-sharing.md", "minutes": 24 }
           ]
+        },
+        {
+          "slug": "part-09-mental-model-for-any-language",
+          "title": "Part 9 — Building A Mental Model For Any Language",
+          "summary": "How to walk into any new codebase, language, or framework and orient yourself in hours. The recipe behind the senior-engineer skill of 'I can read anything and place it on a map'.",
+          "chapters": [
+            { "n": 91, "title": "How To Learn Any Programming Language", "subtitle": "The six questions, the idiom phase, the one-day plan", "path": "part-09-mental-model-for-any-language/01-how-to-learn-any-language.md", "minutes": 28 },
+            { "n": 92, "title": "Recognizing Common Runtime Patterns", "subtitle": "Event loop + worker pool, M:N, generational GC, tiered JIT", "path": "part-09-mental-model-for-any-language/02-recognizing-runtime-patterns.md", "minutes": 22 },
+            { "n": 93, "title": "Mapping Framework Concepts Across Languages", "subtitle": "The universal six and cross-language mapping table", "path": "part-09-mental-model-for-any-language/03-mapping-framework-concepts.md", "minutes": 30 },
+            { "n": 94, "title": "Recognizing Architectural Patterns", "subtitle": "Layered, hexagonal, CQRS, microservices, modular monolith", "path": "part-09-mental-model-for-any-language/04-recognizing-architectural-patterns.md", "minutes": 26 },
+            { "n": 95, "title": "Understanding Any Codebase Quickly", "subtitle": "The five-layer skim; trace one feature; read tests first", "path": "part-09-mental-model-for-any-language/05-understanding-any-codebase.md", "minutes": 22 },
+            { "n": 96, "title": "Reasoning About Complexity", "subtitle": "Cognitive load vs coupling depth; complicated vs complex", "path": "part-09-mental-model-for-any-language/06-reasoning-about-complexity.md", "minutes": 26 },
+            { "n": 97, "title": "How Senior Engineers Think", "subtitle": "Mental defaults; estimation, debugging, disagreement, refactoring", "path": "part-09-mental-model-for-any-language/07-how-senior-engineers-think.md", "minutes": 32 },
+            { "n": 98, "title": "From Developer to Software Architect", "subtitle": "Closing chapter — the three modes; how the parts fit together", "path": "part-09-mental-model-for-any-language/08-from-developer-to-architect.md", "minutes": 26 }
+          ]
         }
       ]
     }
