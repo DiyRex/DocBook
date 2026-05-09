@@ -33,9 +33,22 @@ The substrate: how programs become processes, what the CPU and memory really are
 9. [Why Abstractions Exist](part-01-what-programming-is/09-why-abstractions-exist.md)
 10. [What Languages Actually Do](part-01-what-programming-is/10-what-languages-actually-do.md)
 
-### Part 2 — Memory & Execution Foundations *(coming soon)*
+### [Part 2 — Memory & Execution Foundations](part-02-memory-execution/)
 
-Stack vs heap internals, manual memory management, ownership, lifetimes, RAII, fragmentation, cache and locality, data-oriented design, smart pointers, reference counting, garbage collection internals, how Python/Go/Laravel manage memory.
+The dimension that dominates real-world performance and reliability. Stack and heap internals, manual memory management, ownership, lifetimes, RAII, fragmentation, the cache hierarchy, data-oriented design, smart pointers, reference counting, garbage collection internals, and how Python/Go/PHP runtimes actually manage memory.
+
+11. [Stack vs Heap Internals](part-02-memory-execution/01-stack-vs-heap-internals.md)
+12. [Manual Memory Management](part-02-memory-execution/02-manual-memory-management.md)
+13. [Ownership Models](part-02-memory-execution/03-ownership-models.md)
+14. [Lifetimes](part-02-memory-execution/04-lifetimes.md)
+15. [RAII Explained Deeply](part-02-memory-execution/05-raii-explained-deeply.md)
+16. [Memory Fragmentation](part-02-memory-execution/06-memory-fragmentation.md)
+17. [Caches and CPU Locality](part-02-memory-execution/07-caches-and-cpu-locality.md)
+18. [Data-Oriented Design](part-02-memory-execution/08-data-oriented-design.md)
+19. [Smart Pointers Internals](part-02-memory-execution/09-smart-pointers-internals.md)
+20. [Reference Counting](part-02-memory-execution/10-reference-counting.md)
+21. [Garbage Collection Internals](part-02-memory-execution/11-garbage-collection-internals.md)
+22. [How Python, Go, and PHP Actually Manage Memory](part-02-memory-execution/12-how-languages-manage-memory.md)
 
 ### Part 3 — Understanding Abstractions *(coming soon)*
 
@@ -92,7 +105,7 @@ You do **not** need prior C++ experience. C++ is introduced as we need it.
 | Part | Chapters | Status |
 |---|---|---|
 | Part 1 | 10 | 10/10 ✅ |
-| Part 2 | 12 | not started |
+| Part 2 | 12 | 12/12 ✅ |
 | Part 3 | 10 | not started |
 | Part 4 | 13 | not started |
 | Part 5 | 12 | not started |

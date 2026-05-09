@@ -94,6 +94,97 @@
               "minutes": 26
             }
           ]
+        },
+        {
+          "slug": "part-02-memory-execution",
+          "title": "Part 2 — Memory & Execution Foundations",
+          "summary": "The dimension that dominates real-world performance and reliability. Stack and heap internals, manual memory management, ownership, lifetimes, RAII, fragmentation, the cache hierarchy, data-oriented design, smart pointers, reference counting, garbage collection, and how Python/Go/PHP runtimes actually manage memory.",
+          "chapters": [
+            {
+              "n": 11,
+              "title": "Stack vs Heap Internals",
+              "subtitle": "Two disciplines, not two places. Stack frames, malloc internals, thread-local arenas",
+              "path": "part-02-memory-execution/01-stack-vs-heap-internals.md",
+              "minutes": 32
+            },
+            {
+              "n": 12,
+              "title": "Manual Memory Management",
+              "subtitle": "malloc/new/placement new/alignment, the four bug families, sanitizers",
+              "path": "part-02-memory-execution/02-manual-memory-management.md",
+              "minutes": 28
+            },
+            {
+              "n": 13,
+              "title": "Ownership Models",
+              "subtitle": "Five patterns across C, C++, Rust, and GC'd languages. Move semantics concretely",
+              "path": "part-02-memory-execution/03-ownership-models.md",
+              "minutes": 26
+            },
+            {
+              "n": 14,
+              "title": "Lifetimes",
+              "subtitle": "Storage duration vs object lifetime. Temporaries, lifetime extension, dangling refs",
+              "path": "part-02-memory-execution/04-lifetimes.md",
+              "minutes": 24
+            },
+            {
+              "n": 15,
+              "title": "RAII Explained Deeply",
+              "subtitle": "Constructor acquires, destructor releases. Stack unwinding. Rule of Zero/Three/Five",
+              "path": "part-02-memory-execution/05-raii-explained-deeply.md",
+              "minutes": 26
+            },
+            {
+              "n": 16,
+              "title": "Memory Fragmentation",
+              "subtitle": "Internal vs external. Why long-running services drift. Pools and arenas",
+              "path": "part-02-memory-execution/06-memory-fragmentation.md",
+              "minutes": 24
+            },
+            {
+              "n": 17,
+              "title": "Caches and CPU Locality",
+              "subtitle": "The memory hierarchy. Cache lines, prefetchers, why std::list is wrong",
+              "path": "part-02-memory-execution/07-caches-and-cpu-locality.md",
+              "minutes": 24
+            },
+            {
+              "n": 18,
+              "title": "Data-Oriented Design",
+              "subtitle": "AoS vs SoA. ECS pattern. Hot/cold splitting. SIMD-friendly layouts",
+              "path": "part-02-memory-execution/08-data-oriented-design.md",
+              "minutes": 24
+            },
+            {
+              "n": 19,
+              "title": "Smart Pointers Internals",
+              "subtitle": "unique_ptr, shared_ptr control blocks, weak_ptr, make_shared, atomic cost",
+              "path": "part-02-memory-execution/09-smart-pointers-internals.md",
+              "minutes": 24
+            },
+            {
+              "n": 20,
+              "title": "Reference Counting",
+              "subtitle": "Atomic vs non-atomic counts. Cycles. CPython, Swift ARC, ObjC ARC",
+              "path": "part-02-memory-execution/10-reference-counting.md",
+              "minutes": 24
+            },
+            {
+              "n": 21,
+              "title": "Garbage Collection Internals",
+              "subtitle": "Mark-sweep, copying, generational, tri-color, concurrent collectors. JVM, Go, V8",
+              "path": "part-02-memory-execution/11-garbage-collection-internals.md",
+              "minutes": 28
+            },
+            {
+              "n": 22,
+              "title": "How Python, Go, and PHP Actually Manage Memory",
+              "subtitle": "Four runtimes side by side. Implications and common per-language mistakes",
+              "path": "part-02-memory-execution/12-how-languages-manage-memory.md",
+              "minutes": 30
+            }
+          ]
         }
       ]
     }
